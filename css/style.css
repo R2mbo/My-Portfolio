@@ -9,10 +9,11 @@
     list-style: none;
     text-transform: capitalize;
     font-family: "Poppins",sans-serif;
-    scroll-behavior: smooth;
-
-    
 }
+html, body { 
+    scroll-behavior: smooth
+  }
+
 input::selection {
     background-color: #161616;
     color: white;
@@ -21,14 +22,21 @@ input::selection {
     background-color: white;
     color: #161616;
 }
+section.skills .container p::selection,
+section.skills .container h5::selection,
 section.skills h2::selection,
-section.skills p::selection,
+section.skills p.info::selection,
 section.contact h2::selection,
 textarea::selection,
 section.about h2::selection,
 section.about p::selection{
     background-color: #161616;
     color: white;
+}
+section.skills .container div:hover h5::selection,
+section.skills .container div:hover p::selection {
+    background-color: white;
+    color: #161616;
 }
 ::-webkit-scrollbar {
     width: 10px;
