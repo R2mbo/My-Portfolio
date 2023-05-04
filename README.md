@@ -1,5 +1,9 @@
 <h1 align="center"><b>My Portfolio</b></h1>
 
-![Marwan-Ashraf-Portfolio](https://user-images.githubusercontent.com/109627913/210151873-c44ce1b2-d9f6-4dee-be96-e1bddce0846d.png)
+### -Version 2
+![image](https://user-images.githubusercontent.com/109627913/236121055-1d0e2584-a224-4aee-abe7-0e79617d6c6f.png)
+## Mobile:
+![image](https://user-images.githubusercontent.com/109627913/236121164-43308f3d-8ed1-404c-9fe7-f350012aef68.png)
+
 
 
