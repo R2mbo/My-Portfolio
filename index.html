@@ -3,7 +3,7 @@
 <head>
     <title>Marwan Ashraf Portfolio</title>
     <!-- Website Icon -->
-    <link rel="icon" href="./images/icon.png" type="image/png" sizes="10x10">
+    <link rel="icon" href="./images/mlogo.png" type="image/png" sizes="15x15">
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
@@ -15,8 +15,7 @@
     <meta name="description" content="Hello My Name is Marwan Ashraf I'm a Front-end Developer and that's my Portfolio"> 
       <!-- END meta tags  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 </head>
 <!-- ###--Body Start--### -->
 <body>
@@ -24,13 +23,15 @@
     <header>
         <div class="container">
             <a href="#" class="logo">marwan ashraf</a>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
+            <div class="burger">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                <ul class>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <!-- End Header -->
@@ -111,6 +112,11 @@
             <p class="fst-pro-p">uchiha madara website</p>
             <a href="https://github.com/R2mbo/Madara-Website" target="_blank" class="link-2">github repositorie link</a>
         </div>
+        <div class="fst-pro" style="padding: 25px 36px;">
+            <a href="https://r2mbo.github.io/leon-template/" target="_blank" class="link-1"><img src="./images/leon-template.png"  height="280px"  alt="leon website project image"></a>
+            <p class="fst-pro-p">leon website</p>
+            <a href="https://github.com/R2mbo/leon-template" target="_blank" class="link-2">github repositorie link</a>
+        </div>
     </div>
 </section>
 <!-- End Projects Section -->
@@ -118,14 +124,14 @@
 <section class="contact" id="contact">
     <h2>Contact Me</h2>
 <div class="container">
-    <form action="" method="POST">
-            <input type="text" name="name" placeholder="Full Name" maxlength="29">
-            <input style="text-transform: none;"type="email" name="mail" placeholder="Email Address">
-            <input type="tel" name="phone" placeholder="Phone Number">
-            <textarea  name="letter" style="padding:20px; text-transform: none; line-height:1.2; resize:none; width:100%; overflow:auto; height:200px" placeholder="Let me know How can I Help You"></textarea>
+    <form>
+            <input type="text" name="name"  placeholder="Full Name" maxlength="29">
+            <input style="text-transform: none;"type="email"  name="mail" placeholder="Email Address">
+            <input type="tel" name="phone"  placeholder="Phone Number">
+            <textarea  name="letter"  style="padding:20px; text-transform: none; line-height:1.2; resize:none; width:100%; overflow:auto; height:200px" placeholder="Let me know How can I Help You"></textarea>
             <input type="submit" value="Submit">
     </form>
-    <img src="./images/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a47385357414.gif" alt="programmer2.gif">
+    <img src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" alt="programmer2.gif">
 </div>
 </section>
     <!-- End Contact Section -->
@@ -141,5 +147,9 @@
             <p>© Designed by <span style="font-weight:bold">Marwan Ashraf</span>. All Right Reserved.</p>
         </div>
     </footer>
+    <div class="toUp">
+        <img src="./images/arrowhead-up.png" alt="arrow">
+    </div>
+    <script src="./js/javascript.js"></script>
 </body>
 </html>
