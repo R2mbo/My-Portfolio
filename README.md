@@ -1,5 +1,5 @@
-# <h1 align="center"><u>It's Outdated for now!</u></h1>
-<h2 align="center"><b>My Portfolio</b></h1>
+# <h1 align="center"><u>Outdated</u></h1>
+<h2><b>My Portfolio</b></h1>
 
 ### -Version 2
 ![image](https://user-images.githubusercontent.com/109627913/236121055-1d0e2584-a224-4aee-abe7-0e79617d6c6f.png)
